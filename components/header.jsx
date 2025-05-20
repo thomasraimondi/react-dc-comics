@@ -7,16 +7,46 @@ export default function Header() {
         </div>
         <nav>
           <ul>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
-            <li>Link</li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
+            <li>
+              <a href="#">Link</a>
+              <div className="border"></div>
+            </li>
           </ul>
         </nav>
       </div>
