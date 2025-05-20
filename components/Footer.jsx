@@ -1,3 +1,5 @@
+import Widget from "./widget";
+
 export default function Footer() {
   return (
     <div id="footer">
@@ -127,6 +129,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <Widget />
       </div>
     </div>
   );
