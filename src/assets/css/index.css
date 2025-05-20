@@ -70,8 +70,7 @@ ul {
 
 #header nav ul .border {
   height: 3px;
-  background: #0082f0;
-  display: none;
+  background: #fff;
 }
 
 #header nav ul li:hover {
@@ -80,7 +79,7 @@ ul {
 }
 
 #header nav ul li:hover .border {
-  display: block;
+  background: #0082f0;
 }
 
 #main {
