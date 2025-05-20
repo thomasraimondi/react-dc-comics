@@ -8,43 +8,43 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <a href="#">Link</a>
+              <a href="#">characters</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">comics</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">movies</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">tv</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">games</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">collectibes</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">videos</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">fans</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">news</a>
               <div className="border"></div>
             </li>
             <li>
-              <a href="#">Link</a>
+              <a href="#">shop</a>
               <div className="border"></div>
             </li>
           </ul>
