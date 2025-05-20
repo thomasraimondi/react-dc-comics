@@ -1,0 +1,29 @@
+body {
+  background-color: #000;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: #fff;
+}
+
+#header .header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header nav {
+  display: flex;
+  align-items: center;
+}
+
+#header nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 1rem;
+}
