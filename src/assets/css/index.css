@@ -48,7 +48,6 @@ ul {
 #header .header-content {
   display: flex;
   justify-content: space-between;
-  height: 100%;
 }
 
 #header .logo {
@@ -201,6 +200,9 @@ ul {
   padding: 15px;
   margin: 20px 0;
   font-size: 1.5rem;
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: #f5d5d8;
 }
 
 .alert.alert-info {
