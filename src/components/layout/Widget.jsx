@@ -1,4 +1,4 @@
-import "../../assets/css/components/widget.css";
+import "../../assets/css/CssComponents/widget.css";
 
 export default function Widget() {
   return (

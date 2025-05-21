@@ -1,4 +1,4 @@
-import "../../assets/css/components/header.css";
+import "../../assets/css/CssComponents/header.css";
 
 export default function Header() {
   return (

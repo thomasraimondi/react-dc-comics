@@ -1,3 +1,5 @@
+import "../../assets/css/CssComponents/footer.css";
+
 export default function Footer() {
   return (
     <div id="footer">

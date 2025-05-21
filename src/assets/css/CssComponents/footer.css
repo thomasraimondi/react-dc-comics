@@ -1,5 +1,5 @@
 #footer {
-  background-image: url("../img/footer-bg.jpg");
+  background-image: url("../../img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -7,11 +7,11 @@
 
 #footer .footer-menu {
   color: #fff;
-  background-image: url("../img/dc-logo-bg.png");
+  background-image: url("../../img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 40%;
-  padding-top: 20px;
+  background-size: 50%;
+  padding-top: 30px;
 }
 
 #footer .col-1-6 h2 {
@@ -31,7 +31,7 @@
 
 #footer .footer-social {
   background-color: #303030;
-  padding: 10px 0;
+  padding: 20px 0;
   bottom: 0;
   left: 0;
   width: 100%;

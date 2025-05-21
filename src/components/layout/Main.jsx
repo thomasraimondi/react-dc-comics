@@ -1,4 +1,4 @@
-import "../../assets/css/components/main.css";
+import "../../assets/css/CssComponents/main.css";
 
 export default function Main() {
   return (
