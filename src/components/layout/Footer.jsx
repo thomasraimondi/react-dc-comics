@@ -93,37 +93,25 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="footer-social">
-          <div className="footer-social-content container">
-            <button> sign-up now!</button>
-            <div className="social-links">
-              <span>follow us</span>
-              <img
-                src="../src/assets/img/footer-facebook.png"
-                alt=""
-                srcset=""
-              />
-              <img
-                src="../src/assets/img/footer-twitter.png"
-                alt=""
-                srcset=""
-              />
-              <img
-                src="../src/assets/img/footer-youtube.png"
-                alt=""
-                srcset=""
-              />
-              <img
-                src="../src/assets/img/footer-pinterest.png"
-                alt=""
-                srcset=""
-              />
-              <img
-                src="../src/assets/img/footer-periscope.png"
-                alt=""
-                srcset=""
-              />
-            </div>
+      </div>
+      <div className="footer-social">
+        <div className="footer-social-content container">
+          <button> sign-up now!</button>
+          <div className="social-links">
+            <span>follow us</span>
+            <img src="../src/assets/img/footer-facebook.png" alt="" srcset="" />
+            <img src="../src/assets/img/footer-twitter.png" alt="" srcset="" />
+            <img src="../src/assets/img/footer-youtube.png" alt="" srcset="" />
+            <img
+              src="../src/assets/img/footer-pinterest.png"
+              alt=""
+              srcset=""
+            />
+            <img
+              src="../src/assets/img/footer-periscope.png"
+              alt=""
+              srcset=""
+            />
           </div>
         </div>
       </div>
