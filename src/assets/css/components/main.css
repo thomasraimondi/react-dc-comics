@@ -1,0 +1,9 @@
+#main {
+  color: #fff;
+  flex-grow: 1;
+  background-color: #000;
+}
+
+#main .main-content {
+  padding: 50px 0;
+}

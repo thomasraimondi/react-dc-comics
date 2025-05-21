@@ -1,4 +1,4 @@
-import Alert from "../ui/Alert";
+import "../../assets/css/components/header.css";
 
 export default function Header() {
   return (

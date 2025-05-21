@@ -1,3 +1,5 @@
+import "../../assets/css/components/alert.css";
+
 export default function Alert({ type, children }) {
   if (!children) return <></>;
 

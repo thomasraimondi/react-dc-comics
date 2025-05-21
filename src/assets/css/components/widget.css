@@ -1,0 +1,29 @@
+.widget {
+  background-color: #0082f0;
+  padding: 50px 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.widget-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.widget-content img {
+  width: 50px;
+}
+
+.widget-content .col-1-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+.widget-content .col-1-5 span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}

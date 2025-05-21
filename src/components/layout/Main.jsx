@@ -1,3 +1,5 @@
+import "../../assets/css/components/main.css";
+
 export default function Main() {
   return (
     <div id="main">
