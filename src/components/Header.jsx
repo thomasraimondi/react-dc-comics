@@ -1,3 +1,5 @@
+import Alert from "./ui/Alert";
+
 export default function Header() {
   return (
     <div id="header">
@@ -50,6 +52,7 @@ export default function Header() {
           </ul>
         </nav>
       </div>
+      <Alert type="success" text="messagio di info" />
     </div>
   );
 }

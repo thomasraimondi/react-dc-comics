@@ -194,3 +194,30 @@ ul {
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
+.alert {
+  border: 5px solid;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.alert.alert-info {
+  border-color: #0082f0;
+  color: #0082f0;
+}
+
+.alert.alert-success {
+  border-color: #1a8754;
+  color: #1a8754;
+}
+
+.alert.alert-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.alert.alert-warning {
+  border-color: #ffc008;
+  color: #ffc008;
+}
