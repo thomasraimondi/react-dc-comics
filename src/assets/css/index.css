@@ -28,17 +28,46 @@ ul {
   list-style: none;
 }
 
-.col-1-3 {
-  min-width: 30%;
-}
-
-.col-20 {
-  min-width: 20%;
-}
-
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  width: 100%;
+}
+
+[class*="col"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.col-1-2 {
+  width: calc(100% / 2);
+}
+
+.col-1-3 {
+  width: calc(100% / 3);
+}
+
+.col-1-4 {
+  width: calc(100% / 4);
+}
+
+.col-1-5 {
+  width: calc(100% / 5);
+}
+
+.col-1-6 {
+  width: calc(100% / 6);
 }
 
 #header {
@@ -92,61 +121,54 @@ ul {
 }
 
 #footer {
-  background: url("../img/footer-bg.jpg");
+  background-image: url("../img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  position: relative;
-  padding-top: 70px;
-}
-
-#footer .footer-content {
-  display: flex;
-  justify-content: space-between;
 }
 
 #footer .footer-menu {
-  display: flex;
   color: #fff;
-  padding-top: 150px;
-  width: 50%;
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40%;
+  padding-top: 20px;
 }
 
-#footer .col-1-3 h2 {
+#footer .col-1-6 h2 {
   text-transform: uppercase;
-  margin-bottom: 15px;
 }
 
-#footer .col-1-3 ul {
+#footer .col-1-6 ul {
   padding: 0;
   margin-bottom: 10px;
   color: #7d7d6f;
 }
 
-#footer .col-1-3 ul li:hover {
+#footer .col-1-6 ul li:hover {
   color: #fff;
   text-decoration: underline;
 }
 
-#footer .footer-widget {
+.widget {
   background-color: #0082f0;
   padding: 50px 0;
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-#footer .footer-widget-content {
+.widget-content {
   display: flex;
   justify-content: space-around;
 }
 
-#footer .footer-widget-content img {
+.widget-content img {
   width: 50px;
 }
 
-#footer .footer-widget-content .col-20 {
+.widget-content .col-1-5 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,15 +176,14 @@ ul {
   color: #fff;
 }
 
-#footer .footer-widget-content .col-20 span {
+.widget-content .col-1-5 span {
   text-transform: uppercase;
   font-size: 0.8rem;
 }
 
 #footer .footer-social {
   background-color: #303030;
-  padding: 30px 0;
-  position: absolute;
+  padding: 10px 0;
   bottom: 0;
   left: 0;
   width: 100%;
