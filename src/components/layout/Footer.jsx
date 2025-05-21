@@ -99,19 +99,11 @@ export default function Footer() {
           <button> sign-up now!</button>
           <div className="social-links">
             <span>follow us</span>
-            <img src="../src/assets/img/footer-facebook.png" alt="" srcset="" />
-            <img src="../src/assets/img/footer-twitter.png" alt="" srcset="" />
-            <img src="../src/assets/img/footer-youtube.png" alt="" srcset="" />
-            <img
-              src="../src/assets/img/footer-pinterest.png"
-              alt=""
-              srcset=""
-            />
-            <img
-              src="../src/assets/img/footer-periscope.png"
-              alt=""
-              srcset=""
-            />
+            <img src="../src/assets/img/footer-facebook.png" alt="" />
+            <img src="../src/assets/img/footer-twitter.png" alt="" />
+            <img src="../src/assets/img/footer-youtube.png" alt="" />
+            <img src="../src/assets/img/footer-pinterest.png" alt="" />
+            <img src="../src/assets/img/footer-periscope.png" alt="" />
           </div>
         </div>
       </div>
