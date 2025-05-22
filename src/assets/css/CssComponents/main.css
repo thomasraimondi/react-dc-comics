@@ -37,7 +37,10 @@
 .main-content .btn {
   background-color: #1e82f9;
   margin: 20px 0;
+  padding: 5px 50px;
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 
 .main-content .btn:hover {
