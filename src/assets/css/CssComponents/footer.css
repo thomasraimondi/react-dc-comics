@@ -1,7 +1,6 @@
 #footer {
   background-image: url("../../img/footer-bg.jpg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: 100%;
 }
 
@@ -20,8 +19,12 @@
 
 #footer .col-1-6 ul {
   padding: 0;
-  margin-bottom: 10px;
+  margin: 10px 0;
   color: #7d7d6f;
+}
+
+#footer .col-1-6 ul li {
+  padding: 2px 0;
 }
 
 #footer .col-1-6 ul li:hover {
