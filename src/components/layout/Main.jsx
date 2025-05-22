@@ -1,8 +1,7 @@
 import "../../assets/css/CssComponents/main.css";
 import ComicsCard from "../comics/ComicsCard";
-import comics from "../../assets/data/comics.js";
 
-export default function Main() {
+export default function Main({ comics }) {
   return (
     <div id="main">
       <div className="main-content">
