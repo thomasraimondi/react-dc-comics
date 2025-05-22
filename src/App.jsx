@@ -7,11 +7,14 @@ import Widget from "./components/layout/widget";
 
 // * IMPORT
 import comics from "./assets/data/comics.js";
+import HeaderLinks from "./assets/data/headerLinks.js";
+
+console.log(HeaderLinks);
 
 export default function App() {
   return (
     <>
-      <Header />
+      <Header HeaderLinks={HeaderLinks} />
       <Messages />
       <Main comics={comics} />
       <Widget />

@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+nav ul .border {
+  height: 3px;
+  background: #fff;
+}
+
+nav ul li:hover {
+  color: #0082f0;
+  coursor: pointer;
+}
+
+nav ul li:hover .border {
+  background: #0082f0;
+}
