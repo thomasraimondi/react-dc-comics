@@ -7,7 +7,7 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
 }
 
@@ -18,7 +18,7 @@ nav ul .border {
 
 nav ul li:hover {
   color: #0082f0;
-  coursor: pointer;
+  cursor: pointer;
 }
 
 nav ul li:hover .border {
