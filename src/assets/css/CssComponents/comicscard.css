@@ -1,7 +1,13 @@
+.card-comics {
+  cursor: pointer;
+}
+
 .card-comics .card-img img {
   aspect-ratio: 1;
 }
 
 .card-comics .card-title {
   padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }

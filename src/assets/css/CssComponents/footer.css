@@ -56,3 +56,8 @@
   font-size: 1.1rem;
   text-transform: uppercase;
 }
+
+#footer .footer-social .btn:hover {
+  background-color: #cccaca;
+  color: #303030;
+}

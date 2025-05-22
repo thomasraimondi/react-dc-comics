@@ -39,3 +39,8 @@
   margin: 20px 0;
   font-weight: bold;
 }
+
+.main-content .btn:hover {
+  background-color: #b9d7fa;
+  color: #1e82f9;
+}
