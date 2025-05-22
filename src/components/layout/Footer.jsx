@@ -98,7 +98,7 @@ export default function Footer() {
       </div>
       <div className="footer-social">
         <div className="footer-social-content container">
-          <button> sign-up now!</button>
+          <button className="btn"> sign-up now!</button>
           <div className="social-links">
             <span>follow us</span>
             <img src="../src/assets/img/footer-facebook.png" alt="" />

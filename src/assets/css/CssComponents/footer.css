@@ -45,15 +45,6 @@
   justify-content: space-between;
 }
 
-#footer .footer-social-content button {
-  background-color: #303030;
-  border: 3px solid #0082f0;
-  text-transform: uppercase;
-  padding: 15px;
-  color: #fff;
-  font-size: 1.1rem;
-}
-
 #footer .footer-social-content .social-links {
   display: flex;
   gap: 20px;
