@@ -29,3 +29,12 @@ Allo stesso modo, se non viene passato un colore specifico per sfondo o testo, i
 ### Bonus:
 
 fare in modo che si possa passare all’alert non soltanto un semplice messaggio ma una porzione di markup a piacimento, tramite la prop children
+
+# React Day 3
+
+### Descrizione:
+
+Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l'array di oggetti in allegato. Fate in modo che il componente .
+Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
+
+### Nota: Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
