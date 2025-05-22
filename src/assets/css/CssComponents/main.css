@@ -10,3 +10,32 @@
   background-size: 100%;
   padding: 150px 0;
 }
+
+.main-content .series {
+  position: relative;
+}
+
+.main-content .section-title {
+  text-transform: uppercase;
+  background-color: #1e82f9;
+  padding: 20px;
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  font-weight: bold;
+}
+
+.main-content .comics-gallery {
+  margin-top: 50px;
+}
+
+.main-content .load-more {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content .btn {
+  background-color: #1e82f9;
+  margin: 20px 0;
+  font-weight: bold;
+}
