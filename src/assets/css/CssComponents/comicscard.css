@@ -4,6 +4,8 @@
 
 .card-comics .card-img img {
   aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
 }
 
 .card-comics .card-title {
